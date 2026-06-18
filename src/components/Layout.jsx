@@ -8,7 +8,8 @@ const NAV = [
   { to: '/gallery', label: 'Gallery' },
   { to: '/reviews', label: 'Reviews' },
   { to: '/contact', label: 'Contact' },
-  { to: '/ppf-simulator', label: 'PPF Builder' },
+  { to: '/tint-simulator', label: 'Tint' },
+  { to: '/ppf-simulator', label: 'PPF' },
 ];
 
 function AnnouncementBar() {

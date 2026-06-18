@@ -8,6 +8,7 @@ import Reviews from './pages/Reviews';
 import Quote from './pages/Quote';
 import Contact from './pages/Contact';
 import PPFSimulator from './pages/PPFSimulator';
+import TintSimulator from './pages/TintSimulator';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/quote" element={<Quote />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ppf-simulator" element={<PPFSimulator />} />
+        <Route path="/tint-simulator" element={<TintSimulator />} />
       </Routes>
     </Layout>
   );
